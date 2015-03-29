@@ -1,0 +1,218 @@
+/* layout
+-------------------------------------------*/
+/* line 4, ../../src/sass/_layout.scss */
+.col-sm-12 {
+  height: 275px;
+}
+
+/* line 9, ../../src/sass/_layout.scss */
+.col-sm-6,
+.col-sm-3 {
+  padding: 1em;
+}
+
+/* line 13, ../../src/sass/_layout.scss */
+.col-sm-3 {
+  padding: 5em 1em;
+}
+
+/* line 17, ../../src/sass/_layout.scss */
+.title {
+  width: 350px;
+  padding-top: 0;
+}
+
+/* line 22, ../../src/sass/_layout.scss */
+.triangle {
+  width: 12px;
+  padding-bottom: 30px;
+}
+
+/* line 27, ../../src/sass/_layout.scss */
+.appear {
+  display: none;
+}
+
+/* line 31, ../../src/sass/_layout.scss */
+a:hover + .appear {
+  display: block;
+}
+
+/* line 35, ../../src/sass/_layout.scss */
+.banner {
+  background-image: url("../img/banner.jpg");
+  height: 200px;
+}
+
+/* line 40, ../../src/sass/_layout.scss */
+.beige {
+  background-color: #F4F0E9;
+}
+
+/* line 44, ../../src/sass/_layout.scss */
+.yellow {
+  background-color: #FFF8AF;
+}
+
+/* line 48, ../../src/sass/_layout.scss */
+img {
+  padding: 1em;
+}
+
+/* line 52, ../../src/sass/_layout.scss */
+iframe {
+  width: 100%;
+}
+
+/* line 56, ../../src/sass/_layout.scss */
+.icons {
+  width: 95%;
+  max-width: 400px;
+  padding-bottom: 25px;
+}
+
+/* line 62, ../../src/sass/_layout.scss */
+.rule {
+  border-bottom: 1px solid #333;
+  margin-bottom: 20px;
+}
+
+/* line 67, ../../src/sass/_layout.scss */
+.rule-top {
+  border-top: 1px solid #333;
+}
+
+/* line 71, ../../src/sass/_layout.scss */
+.items ul {
+  list-style: none;
+  padding: 0;
+}
+
+/* fixed button 'donate'
+-------------------------------------------*/
+/* line 80, ../../src/sass/_layout.scss */
+.donate {
+  width: 200px;
+  height: 85px;
+  background-color: yellow;
+  border-radius: 15px;
+  position: fixed;
+  top: 458px;
+  right: -75px;
+  z-index: 1;
+  -ms-transform: rotate(-90deg);
+  /* IE 9 */
+  -webkit-transform: rotate(-90deg);
+  /* Chrome, Safari, Opera */
+  transform: rotate(-90deg);
+  box-shadow: -5px -5px 20px rgba(88, 88, 88, 0.5);
+  background-image: url(../img/fabric2.jpg);
+}
+
+/* line 98, ../../src/sass/_layout.scss */
+.mail,
+.donate a {
+  text-decoration: none;
+  color: #333;
+}
+
+/* line 103, ../../src/sass/_layout.scss */
+.mail:hover {
+  color: #333;
+}
+
+/* navigation
+-------------------------------------------*/
+/* line 5, ../../src/sass/_navigation.scss */
+nav ul li {
+  margin-top: 50px;
+  list-style: none;
+  float: left;
+  width: 30%;
+  padding: 1em;
+}
+
+/* line 15, ../../src/sass/_navigation.scss */
+.col-sm-6 ul li a,
+nav ul li a,
+ul li a:hover {
+  text-decoration: none;
+  color: #333;
+}
+
+/* line 20, ../../src/sass/_navigation.scss */
+.col-sm-6 ul li {
+  list-style: none;
+  float: left;
+  width: 30%;
+  margin-bottom: 20px;
+}
+
+/* text
+-------------------------------------------*/
+/* line 6, ../../src/sass/_text.scss */
+body {
+  padding: 0;
+  margin: 0;
+  font-family: 'Lora', serif;
+  background-color: #80A0E8;
+}
+
+/* line 13, ../../src/sass/_text.scss */
+h1 {
+  text-transform: uppercase;
+  font-size: 30px;
+  margin-top: 100px;
+}
+
+/* line 19, ../../src/sass/_text.scss */
+h2 {
+  font-size: 15px;
+  font-style: italic;
+  margin-bottom: 5px;
+}
+
+/* line 25, ../../src/sass/_text.scss */
+h3 {
+  font-style: italic;
+  font-size: 25px;
+  margin-top: 20px;
+}
+
+/* line 31, ../../src/sass/_text.scss */
+h4 {
+  font-size: 20px;
+  margin-bottom: 5px;
+}
+
+/* Media Queries
+--------------------------------------------*/
+@media screen and (min-width: 800px) {
+  /* line 6, ../../src/sass/_media.scss */
+  h3 {
+    font-size: 45px;
+    margin-top: 100px;
+  }
+
+  /* line 11, ../../src/sass/_media.scss */
+  h2 {
+    font-size: 20px;
+  }
+
+  /* line 15, ../../src/sass/_media.scss */
+  h1 {
+    font-size: 55px;
+    margin-top: 120px;
+  }
+
+  /* line 20, ../../src/sass/_media.scss */
+  .title {
+    width: 600px;
+  }
+
+  /* line 25, ../../src/sass/_media.scss */
+  .banner,
+  .col-sm-12 {
+    height: 400px;
+  }
+}
